@@ -1,59 +1,67 @@
-# ProjetoBuzzfeed
+# Avaliação de Bem-Estar Emocional
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+Este é um projeto desenvolvido em Angular que consiste em um quiz interativo voltado para a saúde mental. O objetivo é auxiliar os usuários a identificarem possíveis sinais de ansiedade ou depressão com base em suas respostas.
 
-## Development server
+## Tecnologias Utilizadas
+- **Angular**: Framework front-end para a construção da aplicação
+- **TypeScript**: Linguagem utilizada para desenvolvimento
+- **CSS**: Estilização da interface do quiz
+- **JSON**: Armazenamento de perguntas e respostas do quiz
 
-To start a local development server, run:
+## Funcionalidades
+- Exibição de perguntas dinâmicas baseadas em um arquivo JSON
+- Registro de respostas do usuário
+- Cálculo de resultados baseado nas respostas selecionadas
+- Interface responsiva e amigável
 
-```bash
-ng serve
+## Estrutura do Projeto
+
+```
+/src
+  /app
+    /components
+      - quizz.component.ts (Lógica do quiz)
+      - quizz.component.html (Template do quiz)
+      - quizz.component.css (Estilos do quiz)
+  /assets
+    - quizz_questions.json (Arquivo de perguntas e respostas)
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Instalação e Execução
 
-## Code scaffolding
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse o diretório do projeto:
+   ```sh
+   cd seu-repositorio
+   ```
+3. Instale as dependências do Angular:
+   ```sh
+   npm install
+   ```
+4. Execute a aplicação:
+   ```sh
+   ng serve
+   ```
+5. Acesse o navegador e abra:
+   ```
+   http://localhost:4200/
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Como Funciona?
+1. O usuário inicia o quiz clicando em uma das opções de resposta.
+2. O sistema registra as respostas e exibe a próxima pergunta.
+3. Ao final, é exibido um diagnóstico inicial com base nas respostas.
 
-```bash
-ng generate component component-name
-```
+## Contribuição
+Se deseja contribuir com este projeto:
+- Fork o repositório
+- Crie uma branch com sua feature (`git checkout -b minha-feature`)
+- Commit suas mudanças (`git commit -m 'Adicionando nova feature'`)
+- Envie um pull request
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Licença
+Este projeto é distribuído sob a Licença MIT. Para mais informações, consulte o arquivo `LICENSE`.
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
