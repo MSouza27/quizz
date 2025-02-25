@@ -81,4 +81,28 @@
   font-size: 50px;
 }
 
+@media (min-width: 768px) {
+  .quizz_logo > h1 {
+    font-size: 90px;
+  }
 
+  .quizz_logo > h3 {
+    font-size: 50px;
+  }
+
+  .quizz_questions {
+    font-size: 50px;
+    height: 200px;
+  }
+
+  .btn-ption {
+    font-size: 30px;
+    padding: 16px 31px;
+    width: 50%;
+  }
+
+  .quizz_results {
+    font-size: 50px;
+    height: 350px;
+  }
+}
