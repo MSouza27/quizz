@@ -1,0 +1,191 @@
+{
+  "title": "Diagnóstico Inicial: Como Você Está Se Sentindo?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Você tem se sentido constantemente ansioso(a) ou preocupado(a)?",
+      "options": [
+        {"id": 1, "name": "Sim, de forma intensa e constante", "alias": "A"},
+        {"id": 2, "name": "Sim, mas apenas em algumas situações", "alias": "B"},
+        {"id": 3, "name": "Não tenho sentido ansiedade", "alias": "C"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Você tem tido dificuldades para dormir?",
+      "options": [
+        {"id": 1, "name": "Sim, tenho insônia ou acordo frequentemente", "alias": "A"},
+        {"id": 2, "name": "Tenho dormido, mas a qualidade do sono não é boa", "alias": "B"},
+        {"id": 3, "name": "Sim, durmo bem e não tenho problemas", "alias": "C"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Você tem se sentido desmotivado(a) ou sem interesse nas coisas que costumava gostar?",
+      "options": [
+        {"id": 1, "name": "Sim, sinto uma falta de prazer constante", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas ainda tenho interesse em algumas atividades", "alias": "B"},
+        {"id": 3, "name": "Não, ainda me sinto motivado(a) e interessado(a)", "alias": "C"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Você tem notado mudanças no seu apetite ou no seu peso?",
+      "options": [
+        {"id": 1, "name": "Sim, estou comendo muito mais ou muito menos do que o normal", "alias": "A"},
+        {"id": 2, "name": "Sim, houve uma leve mudança", "alias": "B"},
+        {"id": 3, "name": "Não, meu apetite e peso estão normais", "alias": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Você tem dificuldade para se concentrar ou tomar decisões?",
+      "options": [
+        {"id": 1, "name": "Sim, tenho muita dificuldade para me concentrar", "alias": "A"},
+        {"id": 2, "name": "Às vezes tenho dificuldade, mas consigo focar quando necessário", "alias": "B"},
+        {"id": 3, "name": "Não, minha concentração está boa", "alias": "C"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Você tem se sentido sem energia ou extremamente cansado(a), mesmo após descansar?",
+      "options": [
+        {"id": 1, "name": "Sim, me sinto exausto(a) o tempo todo", "alias": "A"},
+        {"id": 2, "name": "Sim, mas consigo me recuperar após um bom descanso", "alias": "B"},
+        {"id": 3, "name": "Não, sinto-me energizado(a) e disposto(a)", "alias": "C"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Você tem se sentido triste ou sem esperança em relação ao futuro?",
+      "options": [
+        {"id": 1, "name": "Sim, sinto-me muito triste e sem perspectivas", "alias": "A"},
+        {"id": 2, "name": "Às vezes me sinto triste, mas tento pensar positivo", "alias": "B"},
+        {"id": 3, "name": "Não, sinto-me otimista e com esperança para o futuro", "alias": "C"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Você tem experimentado ataques de pânico ou momentos de grande medo sem razão aparente?",
+      "options": [
+        {"id": 1, "name": "Sim, tenho ataques de pânico com frequência", "alias": "A"},
+        {"id": 2, "name": "Sim, mas são raros e não duram muito tempo", "alias": "B"},
+        {"id": 3, "name": "Não, nunca experimentei ataques de pânico", "alias": "C"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Você tem se sentido mais irritado(a) ou impaciente do que o normal?",
+      "options": [
+        {"id": 1, "name": "Sim, estou irritado(a) constantemente", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento controlar minha irritação", "alias": "B"},
+        {"id": 3, "name": "Não, me sinto calmo(a) na maior parte do tempo", "alias": "C"}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Você tem se sentido sobrecarregado(a) com suas responsabilidades diárias?",
+      "options": [
+        {"id": 1, "name": "Sim, me sinto constantemente sobrecarregado(a)", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento lidar com as tarefas", "alias": "B"},
+        {"id": 3, "name": "Não, consigo gerenciar bem minhas responsabilidades", "alias": "C"}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Você tem dificuldade em lidar com situações estressantes?",
+      "options": [
+        {"id": 1, "name": "Sim, fico extremamente ansioso(a) ou sinto que vou explodir", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas consigo administrar em situações de estresse", "alias": "B"},
+        {"id": 3, "name": "Não, consigo manter a calma em situações estressantes", "alias": "C"}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Você tem sentimentos frequentes de culpa ou inutilidade?",
+      "options": [
+        {"id": 1, "name": "Sim, me sinto culpado(a) o tempo todo", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento me perdoar", "alias": "B"},
+        {"id": 3, "name": "Não, não sinto culpa ou inutilidade", "alias": "C"}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Você tem notado algum comportamento impulsivo ou de risco?",
+      "options": [
+        {"id": 1, "name": "Sim, estou agindo sem pensar e com frequência", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento ser mais cauteloso(a)", "alias": "B"},
+        {"id": 3, "name": "Não, sou muito controlado(a) em minhas ações", "alias": "C"}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Você tem se sentido desconectado(a) das outras pessoas?",
+      "options": [
+        {"id": 1, "name": "Sim, me sinto isolado(a) e sem apoio", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento manter minhas conexões", "alias": "B"},
+        {"id": 3, "name": "Não, me sinto bem conectado(a) com os outros", "alias": "C"}
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Você tem se sentido inseguro(a) ou com medo de algo?",
+      "options": [
+        {"id": 1, "name": "Sim, estou com medo constante e inseguro(a)", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas consigo lidar com meus medos", "alias": "B"},
+        {"id": 3, "name": "Não, me sinto seguro(a) e confiante", "alias": "C"}
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Você tem dificuldade em encontrar motivação para se levantar da cama ou sair de casa?",
+      "options": [
+        {"id": 1, "name": "Sim, tenho dificuldade todos os dias", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas consigo me forçar", "alias": "B"},
+        {"id": 3, "name": "Não, estou motivado(a) para as atividades diárias", "alias": "C"}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Você tem se sentido emocionalmente instável ou com mudanças de humor frequentes?",
+      "options": [
+        {"id": 1, "name": "Sim, meus sentimentos oscilam muito", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento controlar as variações emocionais", "alias": "B"},
+        {"id": 3, "name": "Não, meu humor está estável na maior parte do tempo", "alias": "C"}
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Você tem dificuldades para manter a atenção em atividades simples?",
+      "options": [
+        {"id": 1, "name": "Sim, tenho dificuldades constantes", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas consigo focar quando necessário", "alias": "B"},
+        {"id": 3, "name": "Não, não tenho dificuldades em manter a atenção", "alias": "C"}
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Você tem experimentado sentimentos de desesperança em situações do dia a dia?",
+      "options": [
+        {"id": 1, "name": "Sim, sinto que nada vai melhorar", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas tento manter a esperança", "alias": "B"},
+        {"id": 3, "name": "Não, tenho uma visão positiva das coisas", "alias": "C"}
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Você tem sentido dificuldade para lidar com suas emoções em momentos de estresse?",
+      "options": [
+        {"id": 1, "name": "Sim, fico muito angustiado(a) ou sem controle", "alias": "A"},
+        {"id": 2, "name": "Às vezes, mas consigo lidar melhor com o tempo", "alias": "B"},
+        {"id": 3, "name": "Não, consigo lidar bem com minhas emoções", "alias": "C"}
+      ]
+    }
+  ],
+  "results": {
+    "A": "Os sintomas que você está apresentando podem indicar um quadro de transtorno de ansiedade ou depressão moderada a grave. Recomendamos procurar um profissional de saúde mental para uma avaliação mais detalhada.",
+    "B": "Você pode estar passando por um período de estresse ou sintomas leves de ansiedade ou depressão. É importante cuidar da sua saúde emocional, e se os sintomas persistirem, considere buscar ajuda profissional.",
+    "C": "Você não apresenta sintomas graves no momento, mas sempre é bom continuar monitorando seu bem-estar emocional. Caso sinta algum sintoma novo ou mais intenso, consulte um psicólogo."
+  }
+}
+
